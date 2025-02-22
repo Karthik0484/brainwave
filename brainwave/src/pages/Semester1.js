@@ -1,24 +1,24 @@
 import React from 'react';
 import SubjectList from '../components/SubjectList';
 
-const Semester6 = () => {
+const Semester1 = () => {
   // Define six subjects for Semester 6
   const subjects = [
-    { name: 'Mathematics' },
-    { name: 'Physics' },
-    { name: 'Chemistry' },
-    { name: 'Computer Science' },
-    { name: 'Electronics' },
-    { name: 'Mechanics' }
+    { name: 'Professional English-1' },
+    { name: 'Matrices and Calculus' },
+    { name: 'Enginnering Physics' },
+    { name: 'Enginnering chemistry' },
+    { name: 'Problem Solving and Python Programming' },
+    { name: 'Heritage of Tamils' }
   ];
 
   return (
     <SubjectList
       subjects={subjects}
-      semesterLabel="Semester 6"
-      semesterId="semester-6"
+      semesterLabel="Semester 1"
+      semesterId="semester-1"
     />
   );
 };
 
-export default Semester6;
+export default Semester1;
